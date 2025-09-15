@@ -1,0 +1,39 @@
+@keyframes move-left {
+  to {
+    transform: translateX(-81%);
+  }
+}
+@-webkit-keyframes move-left {
+  to {
+    transform: translateX(-81%);
+  }
+}
+
+@keyframes move-right {
+  0% {
+    transform: translateX(-90%);
+  }
+  100% {
+    transform: translateX(0% + 40px);
+  }
+}
+
+@-webkit-keyframes move-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0% + 40px);
+  }
+}
+
+@keyframes float {
+  to {
+    transform: translateX(-430%);
+  }
+}
+@-webkit-keyframes float {
+  to {
+    transform: translateX(-430%);
+  }
+}
