@@ -8,6 +8,10 @@
   .container {
     max-width: 1240px;
   }
+  .container__five .five__img {
+    width: 60%;
+    margin-left: -15%;
+  }
 }
 // laptop - 1280px
 
@@ -169,6 +173,13 @@
       }
     }
   }
+  // ten
+  .section__ten .ten-title {
+    width: 70%;
+  }
+  .section__ten .ten-title h2 {
+    font-size: 45px;
+  }
 }
 // tablet 768px
 @media (max-width: 768px) {
@@ -242,6 +253,9 @@
     font-size: 1.7rem;
   }
   // six
+  .section__six .six__title {
+    height: auto;
+  }
 
   .section__six .six__title .title-left h2 {
     font-size: 120px;
@@ -305,6 +319,16 @@
     font-size: 25px;
   }
   // three
+  .section__three .three__header {
+    height: auto;
+  }
+  .section__three .three__header .three__header-number p {
+    width: none;
+    font-size: 100px;
+  }
+  .section__three .three__header .three__header-number h2 {
+    font-size: 20px;
+  }
   .section__three .three__items .items {
     width: 100%;
   }
@@ -336,6 +360,13 @@
   }
   // nine
   .nine__title h2 {
+    font-size: 30px;
+  }
+  // ten
+  .section__ten .ten-title {
+    width: 90%;
+  }
+  .section__ten .ten-title h2 {
     font-size: 30px;
   }
 }

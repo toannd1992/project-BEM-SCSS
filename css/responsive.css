@@ -7,6 +7,10 @@
   .container {
     max-width: 1240px;
   }
+  .container__five .five__img {
+    width: 60%;
+    margin-left: -15%;
+  }
 }
 @media (max-width: 1280px) {
   .container {
@@ -149,6 +153,12 @@
   .nine__items .items .star {
     margin-bottom: 50px;
   }
+  .section__ten .ten-title {
+    width: 70%;
+  }
+  .section__ten .ten-title h2 {
+    font-size: 45px;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -216,6 +226,9 @@
   .container__five .five__title .five__title--top h2 {
     font-size: 1.7rem;
   }
+  .section__six .six__title {
+    height: auto;
+  }
   .section__six .six__title .title-left h2 {
     font-size: 120px;
   }
@@ -270,6 +283,16 @@
   .container__two .section__two-top h2 {
     font-size: 25px;
   }
+  .section__three .three__header {
+    height: auto;
+  }
+  .section__three .three__header .three__header-number p {
+    width: none;
+    font-size: 100px;
+  }
+  .section__three .three__header .three__header-number h2 {
+    font-size: 20px;
+  }
   .section__three .three__items .items {
     width: 100%;
   }
@@ -295,6 +318,12 @@
     font-size: 100px;
   }
   .nine__title h2 {
+    font-size: 30px;
+  }
+  .section__ten .ten-title {
+    width: 90%;
+  }
+  .section__ten .ten-title h2 {
     font-size: 30px;
   }
 }

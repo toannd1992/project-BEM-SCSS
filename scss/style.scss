@@ -653,15 +653,15 @@ body {
     flex-direction: column;
     flex: 1;
     gap: 40px;
-    margin: 100px 0;
+    margin: 50px 0;
     & .five__title--top {
-      width: 85%;
+      width: 100%;
       & h2 {
         margin: 0;
         font-size: 3.25rem;
         font-weight: 400;
         line-height: 120%;
-        text-align: center;
+        // text-align: center;
       }
       & p {
         & strong {
